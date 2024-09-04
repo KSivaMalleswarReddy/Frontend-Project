@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <form>
+    
+        <center>
+            <h1>Student Details Form</h1>
+        </center>
+        <label>Name:</lable>
+        <input type="text" placeholder="Enter your Name"/>
+        <br><br>
+        <lable>Date of Birth:</lable>
+        <input type="date"/>
+        <br><br>
+        <lable>Age:</lable>
+        <input type="number" placeholder="Enter Age">
+        <br><br>
+        <lable>College Name:</lable>
+        <input type="text" placeholder="Enter your college Name"/>
+        <br><br>
+        <lable>Mobile No:</lable>
+        <input type="number" placeholder="Enter your Mobile Number"/>
+        <br><br>
+        <fieldset style="width:20%">
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <lable>Male</lable><br>
+            <input type="radio" name="gender" id="Female" value="Female"/>
+            <lable>Female</lable>
+        
+        </fieldset><br><br>
+
+        <fieldset style="width: 20%;">
+            <legend>Skills:</legend>
+            <input type="checkbox" name="Skills" id="HTML" value="HTML"/>
+            <label>HTML</label><br>
+            <input type="checkbox" name="Skills" id="CSS" value="CSS"/>
+            <label>CSS</label><br>
+            <input type="checkbox" name="Skills" id="Java Script" value="Java Script"/>
+            <label>JAVA SCRIPT</label><br>
+            <input type="checkbox" name="Skills" id="python" value="python"/>
+            <label>PYTHON</label><br>
+            <input type="checkbox" name="Skills" id="java" value="java"/>
+            <label>JAVA</label><br> 
+
+        </fieldset><br><br>
+        <lable >Select Role:</lable>
+        <select id="role" name="role" required>
+            <option value="student">Student</option>
+            <option value="Employee">Employee</option>
+        </select><br><br>
+        <lable>Resume:</lable>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc" required/><br/><br/>
+        <label>Email:</label>
+        <input type="email" id="email" name="email" required/>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required/>
+        <br><br>
+        <lable>note:</label>
+        <textarea></textarea>
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
